@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+  font-family: 'Inter' sans-serif;
+  background-color: white;
+  border: none;
+  overflow-x: hidden;
+  font-family: 'Inter', 'Poppins', 'DM Sans', sans-serif;
+}
+
+
+
+html{
+  border: none;
+  margin: 0;
+  padding: 0;
+}
