@@ -230,7 +230,7 @@
  
   position: absolute;
   width: initial;
-  top: 32%;
+  top: 34%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -318,7 +318,10 @@
 
 .about-label, .features1-label, .addfeat-label, .portfolio-label{
   letter-spacing: 0%;
-  border: solid 1px;
+  border-bottom: 1px solid black; /* Adjust color and thickness as needed */
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-radius: 48px;
   padding: 5px 10px;
   margin: 0 0 6px 0;
@@ -329,7 +332,7 @@
   font-family: 'poppins';
   font-weight: 500;
   width: fit-content;
-  background-color: rgba(1, 120, 188, 0.1) ;
+  background-color:transparent ;
 
 }
 
@@ -1008,7 +1011,7 @@ footer{
   font-size: 8px;
   line-height: 10px;
   font-weight: 400;
-  color: #0DA0EA;
+  color: #065686;
   margin: 0 0 10px 0;
   padding: 0;
 }
@@ -1023,12 +1026,12 @@ footer{
   display: flex;
   flex-direction: row;
   border: solid;
-  border-color: #0DA0EA;
-  border-width: 2px;
+  border-color: #065686;
+  border-width: 1px;
   border-radius: 48px;
   padding: 8px 16px;
   height: fit-content;
-  background-color: rgba(13, 160, 234, 0.1);
+  background-color:transparent;
 }
 
 .str-google3{

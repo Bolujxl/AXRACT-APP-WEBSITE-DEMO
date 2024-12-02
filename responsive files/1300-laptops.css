@@ -320,7 +320,10 @@
 
 .about-label, .features1-label, .addfeat-label, .portfolio-label{
   letter-spacing: 0%;
-  border: solid 1px;
+  border-bottom: 1px solid black; /* Adjust color and thickness as needed */
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-radius: 48px;
   padding: 8px 16px;
   margin: 0 0 12px 0;
@@ -331,7 +334,7 @@
   font-family: 'poppins';
   font-weight: 500;
   width: fit-content;
-  background-color: rgba(1, 120, 188, 0.1) ;
+  background-color: rgba(255, 255, 255, 0.1) ;
 
 }
 
@@ -994,7 +997,7 @@ footer{
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
-  color: #0DA0EA;
+  color: #065686;
   margin: 0 0 16px 0;
   padding: 0;
 }
@@ -1009,11 +1012,11 @@ footer{
   display: flex;
   flex-direction: row;
   border: solid;
-  border-color: #0DA0EA;
-  border-width: 2px;
+  border-color: #065686;
+  border-width: 1px;
   border-radius: 48px;
   padding: 16px 25px;
-  background-color: rgba(13, 160, 234, 0.1);
+  background-color: transparent;
 }
 
 .str-google2{
